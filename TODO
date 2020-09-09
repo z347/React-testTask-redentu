@@ -1,0 +1,33 @@
+Написати простий редактор тексту:
+    Технології:
+        ✔ React.js @done(18:31 10.05.20)
+    
+    Вимоги:
+        ✔ Додайте можливість редагувати, виділяти текст. @done(18:40 10.05.20)
+        ✔ Додайте 3 кнопки для зміни кольору, розміру шрифту та зміни фонового кольору виділеного тексту. @done(04:30 10.05.20)
+        ✔ Використайте власні компоненти, реалізуйте передачу даних через emit та props. @done(04:30 10.05.20)
+        ✔ Додайте можливість створювати перенос тексту в новий рядок. Повинен створюватись новий <br/>. @done(04:55 10.05.20) 
+            [Don't work: FireFoxe, IE10 - need test, but work in Microsoft Edge, Safari - don't support on Windows]
+        
+        ✘ Текст не повинен мати вкладеностей <span> ... <span> ... </span> ... </span>. @cancelled(05:35 10.05.20)
+        ✔ Текст не повинен містити додаткових тегів <div> чи <font>. @done(03:25 10.05.20)
+        ✔ Залийте в Github репозиторій. @done(05:03 10.05.20)
+
+        Створіть можливість переводити текст в json-формат:
+                ✔ Виведіть json-запис в окремий блок або консоль. @done(23:27 10.05.20)
+                ✔ Масив повинен містити властивості: текстовий блок, його властивості: розмір, колір, фон. @done(23:28 10.05.20)
+                ⬜ Основна вимога: Суміжні блоки тексту з однаковими атрибутами (колір, розмір, фон) мають об'єднуватись так, щоб суміжні блоки з однаковими атрибутами не дублювались.
+        
+    Додатково:
+        ✘ Сумісність з браузерами IE10, Chrome, FF, Safari останніх версій. @cancelled(05:03 10.05.20)
+        ✔ Використання Redux або Vuex. @done(18:40 10.05.20)
+
+
+    Support:
+        https://stackoverflow.com/questions/18552336/prevent-contenteditable-adding-div-on-enter-chrome
+        https://ru.reactjs.org/docs/faq-functions.html
+        https://stackoverflow.com/questions/7991474/calculate-position-of-selected-text-javascript-jquery/9988468#9988468
+        https://github.com/facebook/draft-js/issues/53
+        https://stackoverflow.com/questions/22935320/uncaught-indexsizeerror-failed-to-execute-getrangeat-on-selection-0-is-not
+        https://stackoverflow.com/questions/32765157/filter-or-map-nodelists-in-es6
+        https://developer.mozilla.org/ru/docs/Web/API/HTMLElement/style

@@ -1,0 +1,24 @@
+#root > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 15px 15px 15px;
+}
+
+#root > div > button {
+    height: 40px;
+    min-width: 100px;
+    max-width: 50%;
+    border: none;
+    border-radius: 10px;
+    background-color: #4682b4;
+    color: #f8f8ff;
+    font-family: 'Arial Black';
+    transition: all 0.3s;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#root > div > button:hover {
+    background-color: #0d5794;
+}
